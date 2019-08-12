@@ -27,7 +27,12 @@ For 5,000 subjects, 3 SNPs X with MAF of 0.05, 0.01, and 0.005, respectively, an
 
 ```
 library(ePowerLI)
-ePowerLI(nSim=50,visits=3,n=c(560,563,295),x1mean=c(8.8,12.8,16.8),x1sd=c(2.1,2.2,2.9), x2mean=c(-0.1,0,0.1),x2sd=c(0.5,0.4,0.5),beta1=c(-0.002),beta2=c( 0.06), betaI=seq(from=-0.004,to=-0.02,length.out=10),Sigma=matrix(c(0.1,0.07,0.07,0.07,0.1,0.07,0.07,0.07,0.1),nrow=3,ncol=3,byrow=T),alpha=0.05,plot.pdf=T,plot.label="2-hydroxyglutarate",plot.name=paste("powerCAMP2hydroxyglutarate.pdf",sep=""),seed=1)	
+ePowerLI(nSim=50,visits=3,n=c(560,563,295),x1mean=c(8.8,12.8,16.8),
+x1sd=c(2.1,2.2,2.9),x2mean=c(-0.1,0,0.1),x2sd=c(0.5,0.4,0.5),
+beta1=c(-0.002),beta2=c( 0.06),betaI=seq(from=-0.004,to=-0.02,length.out=10),
+Sigma=matrix(c(0.1,0.07,0.07,0.07,0.1,0.07,0.07,0.07,0.1),nrow=3,ncol=3,byrow=T),
+alpha=0.05,plot.pdf=T,plot.label="2-hydroxyglutarate",
+plot.name=paste("powerCAMP2hydroxyglutarate.pdf",sep=""),seed=1)	
 ```
 
 ## Output
