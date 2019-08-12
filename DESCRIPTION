@@ -1,0 +1,15 @@
+Package: ePowerLI
+Type: Package
+Title: Runs the ePowerLI function
+Version: 1.0
+Encoding: UTF-8
+Date: 2019-08-12
+Authors@R: c(
+    person("Sharon", "Lutz", email="smlutz@hsph.harvard.edu", role=c("cre","aut"))
+    )
+Maintainer: Sharon Lutz <smlutz@hsph.harvard.edu>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+Imports: 
+    MASS,
+    nlme
