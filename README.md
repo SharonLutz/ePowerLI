@@ -27,8 +27,7 @@ For 5,000 subjects, 3 SNPs X with MAF of 0.05, 0.01, and 0.005, respectively, an
 
 ```
 library(ePowerLI)
-gxeRC(n = 5000, nSNP = 3, MAF = c(0.05, 0.01, 0.005), betaX = c(0.25, 0.25, 0.25), 
-betaI = c(0, 0.05, 0.1),zMu = 0, zVar = 1, yVar = 1, nSim = 1000, alpha = 0.05)
+ePowerLI(n = 5000)
 ```
 
 ## Output
@@ -45,4 +44,3 @@ For this example, we get the following matrix and corresponding plot which outpu
 ## References
 The power analysis used here was implemented in the following manuscript: <br/>
 
-**Lutz SM**, Frederiksen B, Begum F, Cho MH, Hobbs B, McDonald ML, Parker MM, DeMeo DL, Jiang L, Eringher M, Young K, Foreman MG, Kinney GL, Make BJ, Lomas DA, Bakke P, Gulsvik A, Crapo JD, Silverman EK, Beaty TH, Hokanson JE. (2018) Common and Rare Variants Genetic Association Analysis of Cigarettes Per Day Among Ever Smokers in COPD Cases and Controls. *NTR*. (In Press)
