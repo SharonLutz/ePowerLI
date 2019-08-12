@@ -44,3 +44,4 @@ For this example, we get the following plot.
 ## References
 The power analysis used here was implemented in the following manuscript: <br/>
 
+Kelly RS, Sordillo JE, **Lutz SM**, Avila L, Soto-Quiros M, Celedón JC, McGeachie MJ, Dahlin A, Tantisira K, Huang M, Clish CB, Weiss ST, Lasky-Su J, Wu AC. Pharmacometabolomics of Bronchodilator Response in Asthma and the Role of Age-Metabolite Interactions. (Submitted).
