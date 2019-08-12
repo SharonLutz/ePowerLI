@@ -1,5 +1,5 @@
 ## ePowerLI
-Power analysis
+An R package that perfomes an empirical power analysis of the interaction of 2 normally distributed traits on a multivariate normally distributed outcome in an unbalanced longitudinal study design
 
 ## Installation
 ```
