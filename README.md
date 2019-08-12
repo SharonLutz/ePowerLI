@@ -37,14 +37,8 @@ plot.name=paste("powerCAMP2hydroxyglutarate.pdf",sep=""),seed=1)
 ```
 
 ## Output
-For this example, we get the following matrix and corresponding plot which output the type 1 error rate (row 1 of the matrix) and the power (row 2 and 3 of the matrix) to detect the SNP by environment interaction on the outcome. We can see from the plot below that we have the most power in this scenario when the SNP by environment interaction is tested for all 3 SNPs instead of for each SNP individually.
+For this example, we get the following plot.
 
-```
-      lmX1  lmX2  lmX3 lmAll
-[1,] 0.016 0.015 0.020 0.052
-[2,] 0.095 0.030 0.017 0.154
-[3,] 0.439 0.091 0.045 0.578
-```
 <img src="https://github.com/SharonLutz/gxeRC/blob/master/gxeRC.png" width="600">
 
 ## References
