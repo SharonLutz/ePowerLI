@@ -39,7 +39,7 @@ plot.name=paste("powerCAMP2hydroxyglutarate.pdf",sep=""),seed=1)
 ## Output
 For this example, we get the following plot.
 
-<img src="https://github.com/SharonLutz/ePowerLI/blob/master/powerCAMP2hydroxyglutarate.png" width="600">
+<img src="https://github.com/SharonLutz/ePowerLI/blob/master/powerCAMP2hydroxyglutarate.png" width="400">
 
 ## References
 The power analysis used here was implemented in the following manuscript: <br/>
