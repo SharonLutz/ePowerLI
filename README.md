@@ -72,7 +72,7 @@ beta2=c(0.15),betaI=seq(from=-0.015, to=-0.03,length.out=10), Sigma=matrix(c(0.0
 ## Output 2
 For this example, we get the following plot for the empirical power. As the magnitude of betaI increase, the power increases.
 
-<img src="https://github.com/SharonLutz/ePowerLI/blob/master/ powerCRX2.hydroxyglutarate.png" width="400">
+<img src="https://github.com/SharonLutz/ePowerLI/blob/master/powerCRX2.hydroxyglutarate.png" width="400">
 
 
 ## References
