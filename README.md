@@ -11,7 +11,7 @@ Then, the ePowerLI package can be installed using the following in R:
 devtools::install_github("SharonLutz/ePowerLI")
 ```
 
-## Input 
+## Input for ePowerLI 
 For a given number simulations (input=nSim) and time points or visits (input=visits), the number of subjects at each time point (input=n) must be specified. Then, two normally distributed traits (x1 and x2) are generated based on the user inputted mean (input=x1mean and x2mean) and standard deviation (input=x1sd and x2sd). Then, the outcome Y is generated from a multivariate normal distribution (for visits>1) or a normal distribution (for visits=1) where the mean equal to
 
 E\[Y\] = &beta;<sub>1</sub> x1+ &beta;<sub>2</sub> x2 +  &beta;<sub>I</sub>   x1 x2  
@@ -27,7 +27,7 @@ library(ePowerLI)
 ?ePowerLI # For details on this function
 ```
 
-## Output 
+## Output for ePowerLI
 After the two normally distributed traits (x1 and x2) and the outcome (Y) are generated based on user input, simulations studies are used to assess the empirical power for the interaction. For more than one time point or visit (visits>1), a random intercept model is fit using the lme function in the nlme R package. For one time point or visit (visits=1), a linear regression is fit using the lm function. The power is defined as the number of simulations where the p-value for the interaction was less than the specified value (input=alpha) over the total number of simulation (input=nSim). A matrix of the results are produced and a pdf of the plot is saved to the working directory (input plot.pdf=T).
 
 ## Example 1
