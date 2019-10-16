@@ -1,5 +1,5 @@
 ## ePowerLI
-An R package that performs an empirical power analysis for the interaction of 2 normally distributed traits on a multivariate normally distributed outcome in an unbalanced longitudinal study design
+An R package that performs an empirical power analysis for the interaction of 2 normally distributed traits on a multivariate normally distributed outcome in an unbalanced longitudinal study design.
 
 ## Installation
 devtools needs to be installed once if it has not already been installed.
@@ -77,4 +77,4 @@ For this example, we get the following plot for the empirical power. As the magn
 ## References
 The power analysis used here was implemented in the following manuscript to determine the empirical power to detect the interaction between age and 7 metabolites on BDR in the CAMP and GACRS studies: <br/>
 
-Kelly RS, Sordillo JE, **Lutz SM**, Avila L, Soto-Quiros M, Celedón JC, McGeachie MJ, Dahlin A, Tantisira K, Huang M, Clish CB, Weiss ST, Lasky-Su J, Wu AC. Pharmacometabolomics of Bronchodilator Response in Asthma and the Role of Age-Metabolite Interactions. (Submitted).
+Kelly RS, Sordillo JE, **Lutz SM**, Avila L, Soto-Quiros M, Celedón JC, McGeachie MJ, Dahlin A, Tantisira K, Huang M, Clish CB, Weiss ST, Lasky-Su J, Wu AC. Pharmacometabolomics of Bronchodilator Response in Asthma and the Role of Age-Metabolite Interactions. Metabolites. 9(9). doi: 10.3390/metabo9090179.
