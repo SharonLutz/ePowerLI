@@ -28,7 +28,7 @@ library(ePowerLI)
 ```
 
 ## Output for ePowerLI
-After the two normally distributed traits (x1 and x2) and the outcome (Y) are generated based on user input, simulations studies are used to assess the empirical power for the interaction. For more than one time point or visit (visits>1), a random intercept model is fit using the lme function in the nlme R package. For one time point or visit (visits=1), a linear regression is fit using the lm function. The power is defined as the number of simulations where the p-value for the interaction was less than the specified value (input=alpha) over the total number of simulation (input=nSim). A matrix of the results are produced and a pdf of the plot is saved to the working directory (input plot.pdf=T).
+After the two normally distributed traits (x1 and x2) and the outcome (Y) are generated based on the user input, simulations studies are used to assess the empirical power for the interaction. For more than one time point or visit (visits>1), a random intercept model is fit using the lme function in the nlme R package. For one time point or visit (visits=1), a linear regression is fit using the lm function. The power is defined as the number of simulations where the p-value for the interaction was less than the specified value (input=alpha) over the total number of simulation (input=nSim). A matrix of the results are produced and a pdf of the plot is saved to the working directory (input plot.pdf=T).
 
 ## Example 1
 We want to generate the empirical power to detect the interaction between age and the metabolite 2-hydroxyglutarate on bronchodilator response (BDR) in the GACRS study for 1 time point. 
