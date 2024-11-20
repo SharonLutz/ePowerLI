@@ -198,7 +198,7 @@ results<-matR/nSim
 
 if(plot.pdf==T){
 pdf(plot.name)
-plot(betaI,results[1,],xlab=expression(beta),ylab="Power",main=plot.label,type="b")
+plot(betaI,results[1,],xlab=expression(beta),ylab="",main=plot.label,type="b")
 dev.off()	
 }
 
