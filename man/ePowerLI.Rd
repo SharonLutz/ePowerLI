@@ -8,7 +8,7 @@ ePowerLI Analysis Function
 executes the ePowerLI Analysis Function with given input parameters
 }
 \usage{
-ePowerLI(nSim = 500, visits = 3, n = c(560, 563, 295), x1mean = c(8.8, 12.8, 16.8), x1sd = c(2.1, 2.2, 2.9), x2mean = c(-0.09, 0.02, 0.13), x2sd = c(0.4, 0.4, 0.4), beta1 = c(-0.01), beta2 = c(0.06), betaI = c(-0.004, -0.01, -0.02), Sigma = matrix(c(0.1, 0.07, 0.07, 0.07, 0.1, 0.07, 0.07, 0.07, 0.1), nrow = 3, ncol = 3, byrow = T), alpha = 0.05, plot.pdf = T, plot.label = "", plot.name = "powerLIplot.pdf", seed = 1)
+ePowerLI(nSim = 500, visits = 3, n = c(560, 563, 295), x1mean = c(8.8, 12.8, 16.8), x1sd = c(2.1, 2.2, 2.9), x2mean = c(-0.09, 0.02, 0.13), x2sd = c(0.4, 0.4, 0.4), beta1 = c(-0.01), beta2 = c(0.06), betaI = c(-0.004, -0.01, -0.02), Sigma = matrix(c(0.1, 0.07, 0.07, 0.07, 0.1, 0.07, 0.07, 0.07, 0.1), nrow = 3, ncol = 3, byrow = T), alpha = 0.05, plot.pdf = T, plot.label = "", plot.name = "LIplot.pdf", seed = 1)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
